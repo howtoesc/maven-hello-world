@@ -4,7 +4,7 @@ pipeline {
     stage('aa') {
       agent any
       steps {
-        withSonarQubeEnv 'aa'
+        withSonarQubeEnv 'SonarQube'
       }
     }
 
